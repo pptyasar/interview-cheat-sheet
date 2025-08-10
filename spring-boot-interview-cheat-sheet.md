@@ -226,7 +226,7 @@ public class AppConfig {
 1. **Singleton** (default)
    - Single instance per Spring container
 2. **Prototype**
-   - New instance created for each request
+   - New instance created for each time it requested
 3. **Request**
    - One instance per HTTP request
 4. **Session**
@@ -1236,3 +1236,4 @@ public class GlobalValidationExceptionHandler {
 - Use selective validation
 - Consider caching validation results for repeated objects
 - Profile and optimize validation logic
+
